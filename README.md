@@ -20,6 +20,45 @@ Python 标准库后端 + SQLite + 原生 JavaScript。**基础功能无需安装
 | 监控与通知 | 后台定时监控、运行日志、可选 SMTP 汇总通知、EML 草稿 |
 | 双语界面 | 右上角切换中文 / English，浏览器记住偏好；文档语言单独配置 |
 
+## 界面预览
+
+以下 8 张图片已做隐私遮挡，并经本人确认用于展示。图片经过图像编辑，尺寸和部分文字可能与当前版本不同；数据流向以 [隐私说明](PRIVACY.md) 为准。
+
+![总览（中文）](docs/screenshots/overview-zh-redacted.png)
+
+<details>
+<summary>展开其余 7 张中英文预览</summary>
+
+### 总览（英文）
+
+![总览（英文）](docs/screenshots/overview-en-redacted.png)
+
+### 简历与版本（英文）
+
+![简历与版本（英文）](docs/screenshots/resume-en-redacted.png)
+
+### 简历与版本（中文）
+
+![简历与版本（中文）](docs/screenshots/resume-zh-redacted.png)
+
+### 邮件通知（英文）
+
+![邮件通知（英文）](docs/screenshots/email-en-redacted.png)
+
+### 邮件通知（中文）
+
+![邮件通知（中文）](docs/screenshots/email-zh-redacted.png)
+
+### 岗位匹配（英文）
+
+![岗位匹配（英文）](docs/screenshots/matches-en-redacted.png)
+
+### 文档列表（英文）
+
+![文档列表（英文）](docs/screenshots/documents-en-redacted.png)
+
+</details>
+
 ## 快速开始
 
 需要 **Python 3.9 或更高版本**。建议使用仍在维护的 Python 版本。正常使用无需 Node.js、数据库服务器或前端构建工具。

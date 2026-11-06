@@ -47,3 +47,13 @@ _dom*/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Explicitly approved, privacy-redacted documentation images only
+!docs/screenshots/overview-en-redacted.png
+!docs/screenshots/overview-zh-redacted.png
+!docs/screenshots/resume-en-redacted.png
+!docs/screenshots/resume-zh-redacted.png
+!docs/screenshots/email-en-redacted.png
+!docs/screenshots/email-zh-redacted.png
+!docs/screenshots/matches-en-redacted.png
+!docs/screenshots/documents-en-redacted.png

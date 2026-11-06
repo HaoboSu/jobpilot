@@ -20,6 +20,45 @@ Python standard-library backend + SQLite + vanilla JavaScript. **Core features r
 | Monitoring and notifications | Background interval monitoring, run logs, optional SMTP digests and EML drafts |
 | Bilingual interface | Chinese / English toggle with browser-persisted preference; separate document-language setting |
 
+## Screenshots
+
+These eight images have been redacted and approved by their owner for display. Image editing may affect dimensions and some text; the current UI may differ. See the [privacy notes](PRIVACY.md) for data flows.
+
+![Overview (English)](docs/screenshots/overview-en-redacted.png)
+
+<details>
+<summary>Show the other seven Chinese and English previews</summary>
+
+### Overview (Chinese)
+
+![Overview (Chinese)](docs/screenshots/overview-zh-redacted.png)
+
+### Resume and versions (English)
+
+![Resume and versions (English)](docs/screenshots/resume-en-redacted.png)
+
+### Resume and versions (Chinese)
+
+![Resume and versions (Chinese)](docs/screenshots/resume-zh-redacted.png)
+
+### Email notifications (English)
+
+![Email notifications (English)](docs/screenshots/email-en-redacted.png)
+
+### Email notifications (Chinese)
+
+![Email notifications (Chinese)](docs/screenshots/email-zh-redacted.png)
+
+### Job matches (English)
+
+![Job matches (English)](docs/screenshots/matches-en-redacted.png)
+
+### Documents (English)
+
+![Documents (English)](docs/screenshots/documents-en-redacted.png)
+
+</details>
+
 ## Quick start
 
 Requires **Python 3.9 or later**. A currently maintained Python version is recommended. Normal use requires no Node.js, database server or frontend build tools.
