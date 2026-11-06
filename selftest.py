@@ -192,6 +192,12 @@ def http(base: str, path: str, method: str = "GET", payload: dict | None = None)
 
 
 def main() -> int:
+    # Redirected output on English Windows may otherwise default to cp1252.
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8")
+        except (AttributeError, ValueError):
+            pass
     db.init_db()
     print("\n[1] 简历结构化与版本留存")
     structured = rs.normalize_structured(SAMPLE_RESUME)
