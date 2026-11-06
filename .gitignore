@@ -1,0 +1,49 @@
+# ---------------------------------------------------------------------------
+# Runtime data -- NEVER commit these. They contain resumes, credentials and logs.
+# ---------------------------------------------------------------------------
+data/*
+!data/.gitkeep
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Local secrets / environment
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Generated artifacts, exports, screenshots and temp files
+*.log
+*.eml
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.tmp
+*.bak
+_thumbs/
+preview*/
+_chrome*/
+_dom*/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

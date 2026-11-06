@@ -1,0 +1,15 @@
+# JobPilot has NO required third-party dependencies.
+# Everything (HTTP server, SQLite, PDF parsing, .docx export, SMTP, i18n)
+# is implemented with the Python standard library. Python 3.9+ is enough.
+#
+# Nothing here needs to be installed. `pip install -r requirements.txt`
+# is therefore a no-op and is NOT part of the setup instructions.
+#
+# ---------------------------------------------------------------------------
+# OPTIONAL enhancement (uncomment if you want it):
+# ---------------------------------------------------------------------------
+# Improves compatibility with unusually complex PDF layouts and embedded
+# fonts. The built-in zero-dependency parser remains available as a fallback,
+# and the UI offers a one-click install button at POST /api/pdf/install.
+#
+# pypdf>=4.0

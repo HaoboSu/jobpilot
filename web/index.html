@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobPilot · 求职辅助工作台</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">JP</div>
+        <div>
+          <div class="brand-name">JobPilot</div>
+          <div class="brand-sub">求职辅助工作台</div>
+        </div>
+      </div>
+      <nav class="nav" id="nav">
+        <button class="nav-item active" data-page="dashboard"><span class="nav-ico">◫</span>总览</button>
+        <button class="nav-item" data-page="resume"><span class="nav-ico">▤</span>简历与版本</button>
+        <button class="nav-item" data-page="monitor"><span class="nav-ico">◷</span>监控配置</button>
+        <button class="nav-item" data-page="jobs"><span class="nav-ico">◎</span>职位推荐</button>
+        <button class="nav-item" data-page="docs"><span class="nav-ico">✎</span>定制文档</button>
+        <button class="nav-item" data-page="logs"><span class="nav-ico">≡</span>运行日志</button>
+      </nav>
+      <div class="sidebar-foot">
+        <div class="privacy-badge"><span class="dot"></span>本地存储 · 外部服务可选</div>
+        <div class="sidebar-note">改写以原始简历为依据，<br>投递前请核对生成内容。</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h1 id="page-title">总览</h1>
+          <p id="page-subtitle">简历驱动的职位监控、匹配评估与材料定制</p>
+        </div>
+        <div class="topbar-right">
+          <span id="resume-chip" class="chip chip-muted">未导入简历</span>
+          <span id="monitor-chip" class="chip chip-off">监控未启动</span>
+          <button class="btn btn-ghost btn-sm" id="btn-lang" data-no-i18n title="Switch language">English</button>
+          <button class="btn btn-ghost btn-sm" id="btn-refresh">刷新</button>
+        </div>
+      </header>
+      <div id="content" class="content"><div class="loading">正在加载…</div></div>
+    </main>
+  </div>
+
+  <div id="modal-root"></div>
+  <div id="toast" class="toast"></div>
+
+  <script src="/i18n.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
